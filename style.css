@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 21%, rgba(133,133,138,1) 69%, rgba(32,104,110,1) 100%);
+}
+.buttion-delete{
+    /* width: 50%; */
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+.buttion-edite{
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: rgb(54, 170, 54);
+    font-size: 12px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    border-radius: 5px; 
+    cursor: pointer;  
+}
+h1{
+    background: linear-gradient(90deg, rgb(4, 1, 58) 21%, rgba(133,133,138,1) 69%, rgba(32,104,110,1) 100%);
+    background-clip: text;
+    color: transparent;
+}
+.bg-design{
+    background-color: rgba(0, 0, 0, 0.37);
+    width: 50%;
+    height: 500px;
+    margin: 70px auto;
+    padding-top: 1px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.inputfield{
+    padding: 10px;
+    width: 30%;
+    border-radius: 5px;
+   border: 2px solid rgba(4, 1, 58, 0.507) ;
+   background-color: rgba(17, 13, 90, 0.322) ;
+   color: whitesmoke;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text-decorations{
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 0 50px;
+}
